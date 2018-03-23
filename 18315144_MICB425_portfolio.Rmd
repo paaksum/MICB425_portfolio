@@ -127,7 +127,9 @@ metadata %>%
   theme(legend.position = "none")
 
 ```
+
 ## Origins and Earth Systems
+
 ### Evidence worksheet 01 
 
 [Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
@@ -261,14 +263,148 @@ Reversible electron transfer reactions
 * Using information provided in the text, describe how the nitrogen cycle partitions between different redox "niches" and microbial groups. Is there a relationship between the nitrogen cycle and climate change?  
 Nitrogen fixation of N2 to NH4 is required in order for organisms to synthesize nucleic acids and proteins. In the presence of O2, nitrogenase is inhibited and NH4 is oxidized to NO2 then NO3. In the absence of O2, either NO2 or NO3 acts as electron acceptor to produce N2. The nitrogen cycle may cause CO2 levels to drop by converting it to organic matter.
 
-* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+Microbial diversity allows for catalysis of reversible metabolic pathways. For example, nitrogen fixation is catalyzed by the extremely conserved heterodimeric enzyme complex, nitrogenase, which is inhibited by oxygen. A specific group of bacteria is required to oxidize NH4 to nitrate by oxidizing ammonia to nitrite first, before oxidization to nitrate by a different set of nitrifying bacteria.
 
 * On what basis do the authors consider microbes the guardians of metabolism?  
 Dispersal of the core planetary gene set by either vertical or horizontal gene transfer to allow a variety of organisms to guard metabolism. Environmental selection on microbial phenotype leads to evolution of boutique genes that protect the metabolic pathway. The metabolic pathway has a strong chance of surviving in at least one taxon. These taxonomic units may go extinct and evolve but the core machines survive.
 
+### Evidence worksheet 03 
+
+[Rockstrom *et al* 2009](https://www.ncbi.nlm.nih.gov/pubmed/19779433)
+
+#### Learning objectives
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems. 
+
+#### General questions
+* What were the main questions being asked?  
+How far can human development go without causing detrimental or catastrophic effects to the environment? "What are the planetary boundaries"" that define a safe living space on Earth? How many of these boundaries have we already overstepped and what should humans do about it?
+
+* What were the primary methodological approaches used?  
+The primary methodological approaches include proposing a framework that contains "planetary boundaries", which are thresholds for each of 9 planetary systems characterized by parameters including climate change and biodiversity loss, that represent the safe operating space for humanity. These thresholds are  critical values taken from literature and are compared and assessed against current values. 
+
+* Summarize the main results or findings.  
+The 3 planetary systems of climate change (measured by carbon dioxide concentration), rate of biodiversity loss (measured by extinction rate), and nitrogen cycle (amount of N2 removed from atmosphere for human use) were found to have crossed the proposed planetary boundary. Other system boundaries such as ocean acidification and phosphorus cycle are close to being overstepped.
+
+* Do new questions arise from the results?  
+Are there other systems and processes other than the 9 proposed that are important to consider when assessing the impacts of human activity? Could some proposed systems be already overstepped if using different criteria to assess critical values? 
+
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+The paper provided an insightful view of the state of the anthropocene and provided a good table explicitly showing how each system is assessed and which boundaries are crossed already. However, the authors noted that some boundary thresholds are "merely their best guess", and a more robust method to quantify these thresholds may result in different findings.
+
+### Writing Assessment 01
+
+Microbial life can easily live without us; we, however, cannot survive without the global catalysis and environmental transformations it provides. Microbes have been in existence for much longer than humans have, but with industrialization and other human activities, the human footprint on Earth's environment in our short stint is sizeable enough to alter processes that the sheer number of microbes have established for billions of years. It is the abundance of microbes that exist on Earth along with their high degree of genetic diversity that makes them necessary in sustaining life. Additionally, microbes play a major role in the nitrogen biogeochemical cycle, and with nitrogen being one of the most essential requirements for life to occur, survival without microbes would be challenging. Furthermore, the evolution of complex life such as humans would not have occurred had early microbes not orchestrated pivotal events in Earth's history such as oxygenation events.  
+Microbes are very abundant on Earth. There are 4-6 x 1030 prokaryotic cells on Earth which together contain 350-550 Pg of carbon, which is 60-100% the cellular carbon found in plants (Whitman et al., 1998). This substantial number of microbes is distributed in major habitats including aquatic habitats, soil, terrestrial subsurface, as well as marine sediments (Whitman et al., 1998). In addition, they have an average cellular production rate of 1.7 x 1030 cells/yr (Whitman et al., 1998). The significance of such a presence of microbes in the world with rapid proliferation is that they have a much higher potential to accumulate mutations and thus to acquire genetic diversity (Whitman et al., 1998). This is important for global catalysis and environmental transformations because without a high degree of genetic diversity, microbes would not be able to adapt to external stimuli and stresses optimally enough to continue powering Earth's biogeochemical cycles efficiently. Some argue that humans are capable of or even obligated to take on an interventionist and managerial role to guide the Earth's ecosystem, but this would require a world of constant intervention in order to fix problems caused by previous interventions (Achenbach, 2012). If humans had developed chemical engineering technologies to command biogeochemical processes at large scale, it would likely require countless iterations to address flaws and optimize processes. It is at the very least challenging to artificially create these biogeochemical processes that microbes have shaped with their highly adaptive potential for billions of years.  
+Nitrogen is the 5th most abundant element in the solar system and necessary for nucleic acid and protein synthesis, and thus to sustain life. In the atmosphere, however, it is in its inert N2 form and must be fixated to ammonium by microbes through a redox reaction (Canfield et al., 2010). Eukaryotes such as legumes and termites also fixate nitrogen, but only in symbiotic association with nitrogen-fixing prokaryotes, signifying the foundational role of prokaryotes in fixating nitrogen (Canfield et al., 2010). Human activity in the 20th century such as industrial processes, agriculture, and burning fossil fuels have all contributed to the rate of nitrogen fixation, doubling the rate and accounting for 45% of total fixed nitrogen annually produced (Canfield et al., 2010). If microbes did not fixate nitrogen and denitrify, nitrogen flux due to human activity would result in much more fixation than denitrification. In fact, the use of fertilizers in agriculture results in fertilizer wash out due to crop inefficiencies which then go on to be converted and leached into rivers and lakes as NO3-, creating hypoxic zones around the world (Canfield et al., 2010). Clearly, not only can we not live without microbe mediation of the nitrogen biogeochemical cycle, but we would also inflict pollution.  
+Microbial life has been widespread since the mid-Archaean. Had early microbes not induced important checkpoints during Earth's development, complex organisms such as humans would never have arisen (Nisbet and Sleep, 2003). For example, the evolution of marine cyanobacteria predates 2.7 Ga and is evidence of global oxygenic photosynthesis (Nisbet and Sleep, 2003). In fact, a sharp oxygen spike at 2.2 Ga possibly supported the development of complex eukaryotes.  
+The abundance of microbes and their high degree of genetic diversity that makes them necessary in sustaining life. They also play a major role in the nitrogen biogeochemical cycle in sustaining life. Also, the evolution of complex life would not have occurred had early microbes not shaped early Earth. With the intelligence of mankind comes consequences to our environment. Having only been in existence for a minute fraction of time compared to the age of the Earth, humans have shown they are capable of impacting the global ecosystem in yet an even shorter amount of time. Over the past few centuries, the actions of humans such as industrialization and agriculture have influenced if not resulted in climate change, biodiversity loss, and interference with the nitrogen cycle, all of which have put the Earth at risk for detrimentally irreversible change (Rockstrom et al., 2009). Microbes may not be greatly affected by these changes due to their adaptability, but humans will certainly be affected. We must recognize that microbes are essential in maintaining a viable ecosystem and be wary of the environmental impacts of our actions. 
+
+
 ### Module 01 references
 
+Achenbach, J. (2012). Spaceship Earth: A new view of environmentalism. The Washington Post.  
+Canfield, D., Glazer, A., & Falkowski, P. (2010). The Evolution and Future of Earth's Nitrogen Cycle. Science, 330(6001), 192-196.  
 Falkowski, P., Fenchel, T., & Delong, E. (2008). The Microbial Engines That Drive Earth's Biogeochemical Cycles. Science, 320(5879), 1034-1039.  
 Kasting, J. (2003). Life and the Evolution of Earth's Atmosphere. Science, 296(5570), 1066-1068.  
 Nisbet, E., & Sleep, N. (2001). The habitat and nature of early life. Nature, 409(6823), 1083-1091.  
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578â€“6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+Rockström, J., Steffen, W., Noone, K., Persson, Å., Chapin, F., & Lambin, E. et al. (2009). A safe operating space for humanity. Nature, 461(7263), 472-475.
+Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578-6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+
+
+#Module 2
+
+## Module 2 portfolio check
+The first of your second level headers (##) is to be used for the portfolio content checks. The Module 01 portfolio check has been built for you directly into this template, but will also be available as a stand-alone markdown document available on the MICB425 GitHub so that you know what is required in each module section in your portfolio. The completion status and comments will be filled in by the instructors during portfolio checks when your current portfolios are pulled from GitHub.
+
+* Problem Set 3
+    + Completion status:
+    + Comments:
+* Portfolio repo setup
+    + Completion status: 
+    + Comments:
+* RMarkdown Pretty PDF Challenge
+    + Completion status:
+    + Comments:
+    
+## Data Science Friday
+
+### Problem set_03 - Metagenomics: Genomic Analysis of Microbial Communities
+[Wooley *et al* 2010](https://www.ncbi.nlm.nih.gov/pubmed/?term=A+Primer+on+Metagenomics+wooley)
+
+#### Learning objectives: 
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
+*(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
+
+#### Specific Questions:
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?  
+
+
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+  
+
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
+
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+
+
+### Evidence Worksheet 04
+[Martinez *et al* 2007](https://www.ncbi.nlm.nih.gov/pubmed/17372221)
+
+#### Learning objectives
+* Discuss the relationship between microbial community structure and metabolic diversity  
+*	Evaluate common methods for studying the diversity of microbial communities.  
+*	Recognize basic design elements in metagenomic workflows. 
+
+#### General questions
+* What were the main questions being asked?  
+
+
+* What were the primary methodological approaches used?  
+
+
+* Summarize the main results or findings.  
+
+
+* Do new questions arise from the results?  
+
+
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+
+
+### Evidence Worksheet 05
+[Welch *et al* 2002](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+#### Learning objectives
+* Evaluate the concept of microbial species based on environmental surveys and
+cultivation studies.  
+* Explain the relationship between microdiversity, genomic diversity and metabolic potential.  
+* Comment on the forces mediating divergence and cohesion in natural microbial
+communities. 
+
+#### General questions
+* What were the main questions being asked?  
+How do the 2 pathogenic and 1 non-pathogenic E. coli strains differ in their pathogenecity of intestinal diseases? From what lineages did pathogenic E. coli arise from? How does lateral gene transfer lead to new uropathogenic E. coli strains? What is the core gene set as opposed to the accessory gene set in each strain?
+
+* What were the primary methodological approaches used?  
+Whole genome libraries prepared from genomic DNA and sequenced by Sanger sequencing. Genome sequence was annotated using MAGPIE and ORFs defined using GLIMMER. Predicted proteins were searched with BLAST. Shotgun library sequencing and PCR of CFT073 genome were performed. 
+
+* Summarize the main results or findings.  
+Assembly and alignment of CFT073 DNA fragment library to MG1655 and EDL933 showed >70% ORFs previously identified as unique to MG1655 and EDL933 are replaced with CFT073 specific genes. Acquisition of islands resulted in ability to infect urinary tracts and bloodstream, while colonizing the intestine and evading host defenses. Acquired genes promote colonization of specific regions of the intestine and new modes of interaction with host tissue, producing clincally distict variations of gastrointestinal disease.
+
+* Do new questions arise from the results?  
+Do the strain specific genes allow its mechanism of infection to differ from other strains? What are the factors (eg. environmental) that influence the rate of gene acquisition? What are some other implications of island acquisition other than ability to infect bloodstream and evade host defenses?
+
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+Understanding this paper require several read throughs as it was heavily genetics based research. Background info and methods were explained adequately, however more informative figures would offer a better visual interpretation of the results.
+
+### Module 2 References
+
+Martinez, A., Bradley, A., Waldbauer, J., Summons, R., & DeLong, E. (2007). Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proceedings Of The National Academy Of Sciences, 104(13), 5590-5595.  
+Welch, R., Burland, V., Plunkett, G., Redford, P., Roesch, P., & Rasko, D. et al. (2002). Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proceedings Of The National Academy Of Sciences, 99(26), 17020-17024.  
+Wooley, J., Godzik, A., & Friedberg, I. (2010). A Primer on Metagenomics. Plos Computational Biology, 6(2), e1000667.
