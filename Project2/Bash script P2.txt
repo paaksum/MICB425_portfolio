@@ -1,0 +1,59 @@
+#create screen
+$ screen -S depth
+#return to screen
+$ screen -r depth
+
+
+#!/bin/bash
+
+export WISECONFIGDIR=/home/connor/TreeSAPP//data//genewise_support_files//wisecfg
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_10m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_10m.anqdp.fastq.gz -o treesapp_out_dir_depth10m
+
+rm treesapp_out_dir_depth120m/RPKM_outputs/SI072_LV_10m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_100m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_100m.anqdp.fastq.gz -o treesapp_out_dir_depth100m
+
+rm treesapp_out_dir_depth120m/RPKM_outputs/SI072_LV_100m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_120m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_120m.anqdp.fastq.gz -o treesapp_out_dir_depth120m
+
+rm treesapp_out_dir_depth120m/RPKM_outputs/SI072_LV_120m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_135m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_135m.anqdp.fastq.gz -o treesapp_out_dir_depth135m
+
+rm treesapp_out_dir_depth135m/RPKM_outputs/SI072_LV_135m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_150m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_150m.anqdp.fastq.gz -o treesapp_out_dir_depth150m
+
+rm treesapp_out_dir_depth150m/RPKM_outputs/SI072_LV_150m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_165m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_165m.anqdp.fastq.gz -o treesapp_out_dir_depth165m
+
+rm treesapp_out_dir_depth165m/RPKM_outputs/SI072_LV_165m_DNA.scaffolds_genes.sam
+
+time treesapp.py -T 8 --verbose --delete \
+-t D0301 -i bucket/MetaG_assemblies/SI072_LV_200m_DNA.scaffolds.fasta --rpkm -r bucket/MetaG_reads/SI072_LV_200m.anqdp.fastq.gz -o treesapp_out_dir_depth200m
+
+rm treesapp_out_dir_depth200m/RPKM_outputs/SI072_LV_200m_DNA.scaffolds_genes.sam
+.
+.
+.
+
+
+Assemblies:
+SI072_LV_100m_DNA.scaffolds.fasta  SI072_LV_150m_DNA.scaffolds.fasta
+SI072_LV_10m_DNA.scaffolds.fasta   SI072_LV_165m_DNA.scaffolds.fasta
+SI072_LV_120m_DNA.scaffolds.fasta  SI072_LV_200m_DNA.scaffolds.fasta
+SI072_LV_135m_DNA.scaffolds.fasta
+
+Reads:
+SI072_LV_100m.anqdp.fastq.gz  SI072_LV_135m.anqdp.fastq.gz  SI072_LV_200m.anqdp.fastq.gz
+SI072_LV_10m.anqdp.fastq.gz   SI072_LV_150m.anqdp.fastq.gz
+SI072_LV_120m.anqdp.fastq.gz  SI072_LV_165m.anqdp.fastq.gz

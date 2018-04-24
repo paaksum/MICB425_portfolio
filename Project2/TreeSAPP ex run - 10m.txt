@@ -1,0 +1,146 @@
+paaks@group3:~$ time treesapp.py -T 8 --verbose --delete \
+> -t D0301 -i bucket/MetaG_assemblies/SI072_LV_10m_DNA.scaffolds.fasta --rpkm -r              bucket/MetaG_reads/SI072_LV_10m.anqdp.fastq.gz -o treesapp_out_dir_depth10m
+WARNING: Number of threads specified is greater than those available! Using maximum threads available (8)
+Formatting bucket/MetaG_assemblies/SI072_LV_10m_DNA.scaffolds.fasta for pipeline... done.
+        Analyzing 347168 sequences found in input.
+Running BLAST... done.
+        BLAST time required: 0.0:35.0:5.17
+Parsing BLAST results... done.
+        4565 intial BLAST alignments found.
+        57 purified BLAST alignments:
+                57 nirK
+        48/347168 sequences contain putative markers.
+
+Producing Genewise input files... done.
+Running Genewise... done.
+        Genewise time required: 0.0:0.0:1.29
+        Genewise was called 48 times.
+        9 duplicate Genewise calls were skipped.
+Parsing Genewise outputs... done.
+        10 valid sequences after Genewise processing.
+
+Retrieving rRNA hits... done.
+        rRNA-identification time required: 0.0:0.0:4.06
+        0 rRNA sequences found.
+
+Running hmmalign... done.
+        hmmalign time required: 0.0:0.0:0.27
+Concatenating hmmalign files... done.
+Running RAxML... coffee?
+        RAxML time required: 0.0:0.0:55.6
+        RAxML was called 8 times.
+Parsing the RAxML outputs...
+[---------]%
+        Tree parsing time required: 0.0:0.0:2.98
+        8 RAxML output files.
+        8 sequences successfully inserted by RAxML.
+
+Concatenating the RAxML outputs for each marker gene class...
+D0301_ results concatenated:
+Placement weight 37.50%: Assignment of query to Chthoniobacter flavus Ellin428 | EDY19063 (19).
+Placement weight 25.00%: Assignment of query to Nitrosococcus oceani | CCA61349 (102).
+Placement weight 12.50%: Assignment of query to the lowest common ancestor of Haloarcula marismortui | CAB93142 (1), Halomicrobium mukohataei DSM 12286 | ACV47144 (2), Halorhabdus utahensis DSM 12940 | ACV10224 (3), Natronomonas pharaonis DSM 2160 | CAI48890 (4), Halogeometricum borinquense DSM 11551 | ADQ68950 (5), Rhodothermus marinus DSM 4252 | ACY48098 (6), Marivirga tractuosa DSM 4126 | ADR22678 (7), Bizionia argentinensis JUB59 | EGV44369 (8), Capnocytophaga gingivalis ATCC 33624 | EEK14494 (9), Capnocytophaga sp. oral taxon 338 str. F0234 | EGD33903 (10), Chryseobacterium gleum ATCC 35910 | EFK34150 (11), Flavobacterium johnsoniae | SHL56746 (12), Imtechella halotolerans K1 | EID73898 (13), Maribacter sp. HTCC2170 | EAR01831 (14), Muricauda ruestringensis DSM 13258 | AEM71702 (15), Myroides odoratimimus CCUG 12901 | EHO06522 (16), Flavobacteriaceae bacterium 3519-10 | ACU06855 (17), Solitalea canadensis DSM 3403 | AFD07908 (18), Chthoniobacter flavus Ellin428 | EDY19063 (19), Burkholderia pseudomallei | KGD31297 (67), Burkholderia thailandensis | KVG15543 (68), Burkholderia pseudomallei | OMY92297 (69), Ralstonia pickettii | KFL22443 (71), Ralstonia solanacearum PSI07 | CBJ52550 (72), Ralstonia solanacearum CFBP2957 | CBJ52839 (73), Ralstonia solanacearum CMR15 | CBJ41149 (74), Kingella kingae | CRZ20714 (75), Kingella denitrificans ATCC 33394 | EGC17925 (76), Kingella oralis ATCC 51147 | EEP66738 (77), Neisseria meningitidis | CWM74454 (78), Neisseria gonorrhoeae | CNQ97818 (79), Neisseria sp. GT4A_CT1 | EGY59976 (80), Neisseria meningitidis | CWM94820 (81), Neisseria bacilliformis ATCC BAA-1200 | EGF08904 (82), Neisseria elongata subsp. glycolytica ATCC 29315 | EFE50341 (83), Neisseria flavescens SK114 | EER55617 (84), Neisseria macacae ATCC 33926 | EGQ77692 (85), Neisseria meningitidis M0579 | AKM91875 (86), Neisseria meningitidis 63041 | ELK70709 (87), Neisseria mucosa ATCC 25996 | EFC87241 (88), Neisseria subflava NJ9703 | EFC52848 (89), Neisseria weaveri ATCC 51223 | EGV36290 (90), Methylotenera mobilis JLW8 | ACT47970 (91), Azoarcus sp. KH32C | BAL27513 (94), Oceanimonas sp. GK1 | AEY02287 (95), Kangiella koreensis DSM 16069 | ACV27434 (103), Psychrobacter sp. 1501(2011) | EGK14836 (104), Moraxella catarrhalis 46P47B1 | EGE13573 (105), Rhodanobacter denitrificans | AGG89997 (110), Pseudoxanthomonas suwonensis 11-1 | ADV26214 (111), Turneriella parva DSM 21527 | AFM12745 (112), Chloroflexus sp. Y-400-fl | ACM53116 (113), Chloroflexus aggregans DSM 9485 | ACL24695 (114), Sphaerobacter thermophilus DSM 20745 | ACZ37592 (115), Thermaerobacter marianensis DSM 12885 | ADU51617 (116) and Thermaerobacter subterraneus DSM 13965 | EFR62310 (117).
+Placement weight 12.50%: Assignment of query to the lowest common ancestor of Haloarcula marismortui | CAB93142 (1), Halomicrobium mukohataei DSM 12286 | ACV47144 (2), Halorhabdus utahensis DSM 12940 | ACV10224 (3), Natronomonas pharaonis DSM 2160 | CAI48890 (4), Halogeometricum borinquense DSM 11551 | ADQ68950 (5) and Rhodothermus marinus DSM 4252 | ACY48098 (6).
+Placement weight 12.50%: Assignment of query to Flavobacteriaceae bacterium 3519-10 | ACU06855 (17).
+_D0301_ sum of placement weights (should be 100): 100
+Aligning reads to ORFs with BWA MEM... FASTQ file containing reverse mates was not provided - assuming the reads are interleaved!
+done.
+Calculating RPKM values for each ORF... done.
+        WARNING: Taxonomic lineages didn't converge between Bacteria; Proteobacteria and Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense.
+        Taxonomic distance set to length of LCA lineage (2).
+        WARNING: Taxonomic lineages didn't converge between Bacteria; Proteobacteria and Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula.
+        Taxonomic distance set to length of LCA lineage (2).
+        WARNING: Taxonomic lineages didn't converge between Bacteria; Proteobacteria and Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium; Halomicrobium mukohataei.
+        Taxonomic distance set to length of LCA lineage (2).
+        WARNING: Taxonomic lineages didn't converge between Bacteria; Proteobacteria and Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halorhabdus; Halorhabdus utahensis.
+        Taxonomic distance set to length of LCA lineage (2).
+        WARNING: Taxonomic lineages didn't converge between Bacteria; Proteobacteria and Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas; Natronomonas pharaonis.
+        Taxonomic distance set to length of LCA lineage (2).
+
+Information for query sequence 'scaffold61489'
+1 sequence(s) grafted onto the nirK tree.
+JPlace fields:
+        ['"edge_num"', '"likelihood"', '"like_weight_ratio"', '"distal_length"', '"pendant_length"']
+Placement information:
+        [[110, -47761.968328, 0.965052, 0.131195, 2.844879]]
+Non-redundant lineages of child nodes:
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium; Halomicrobium mukohataei
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halorhabdus; Halorhabdus utahensis
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas; Natronomonas pharaonis
+        Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense
+        Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; Rhodothermus marinus
+        Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Flammeovirgaceae; Marivirga; Marivirga tractuosa
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Bizionia; Bizionia argentinensis
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Capnocytophaga; Capnocytophaga gingivalis
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Capnocytophaga; Capnocytophaga sp. oral taxon 338
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Chryseobacterium; Chryseobacterium gleum
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Flavobacterium
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Imtechella; Imtechella halotolerans
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Maribacter
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Muricauda; Muricauda ruestringensis
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Myroides; Myroides odoratimimus
+        Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; unclassified Flavobacteriaceae
+        Bacteria; Bacteroidetes; Sphingobacteriia; Sphingobacteriales; Sphingobacteriaceae; Solitalea; Solitalea canadensis
+        Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Chloroflexaceae; Chloroflexus
+        Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Chloroflexaceae; Chloroflexus; Chloroflexus aggregans
+        Bacteria; Chloroflexi; Thermomicrobia; Sphaerobacteridae; Sphaerobacterales; Sphaerobacterineae; Sphaerobacteraceae; Sphaerobacter; Sphaerobacter thermophilus
+        Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter; Thermaerobacter marianensis
+        Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter; Thermaerobacter subterraneus
+        Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Burkholderia; pseudomallei group
+        Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Ralstonia
+        Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Ralstonia; Ralstonia solanacearum
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella; Kingella denitrificans
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella; Kingella oralis
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria bacilliformis
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria elongata; Neisseria elongata subsp. glycolytica
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria flavescens
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria macacae
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria meningitidis
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria mucosa
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria subflava
+        Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria weaveri
+        Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Methylophilaceae; Methylotenera; Methylotenera mobilis
+        Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Zoogloeaceae; Azoarcus
+        Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Oceanimonas
+        Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella; Kangiella koreensis
+        Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae
+        Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella catarrhalis
+        Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Rhodanobacteraceae; Rhodanobacter
+        Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Pseudoxanthomonas; Pseudoxanthomonas suwonensis
+        Bacteria; Spirochaetes; Spirochaetia; Leptospirales; Leptospiraceae; Turneriella; Turneriella parva
+        Bacteria; Verrucomicrobia; Spartobacteria; Chthoniobacterales; Chthoniobacteraceae; Chthoniobacter; Chthoniobacter flavus
+Lowest common taxonomy:
+        Bacteria; Proteobacteria
+Abundance:
+        3.2464
+
+        WARNING: Taxonomic lineages didn't converge between Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae and Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; Rhodothermus marinus.
+        Taxonomic distance set to length of LCA lineage (5).
+
+Information for query sequence 'scaffold26448'
+1 sequence(s) grafted onto the nirK tree.
+JPlace fields:
+        ['"edge_num"', '"likelihood"', '"like_weight_ratio"', '"distal_length"', '"pendant_length"']
+Placement information:
+        [[10, -47542.698487, 0.367435, 0.494406, 3.685522]]
+Non-redundant lineages of child nodes:
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium; Halomicrobium mukohataei
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halorhabdus; Halorhabdus utahensis
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas; Natronomonas pharaonis
+        Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense
+        Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis; Rhodothermaceae; Rhodothermus; Rhodothermus marinus
+Lowest common taxonomy:
+        Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae
+Abundance:
+        7.5976
+
+        0 nirK sequence(s) detected but not classified.
+TreeSAPP has finished successfully.
+
+real    66m27.264s
+user    194m28.841s
+sys     2m44.965s

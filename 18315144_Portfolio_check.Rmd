@@ -14,19 +14,19 @@ output: html_document
     + Completion status: X
     + Comments:
 * Evidence worksheet_03
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_01
     + Completion status: X
     + Comments:
 * Problem Set_02
-    + Completion status:
+    + Completion status: X
     + Comments: Expand explanations. 1 question not answered.
 * Writing assessment_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Additional Readings
-    + Completion status:
+    + Completion status: X
     + Comments: Needs links.
 
 ### Data Science
@@ -48,20 +48,20 @@ output: html_document
 
 * Evidence worksheet_04
     + Completion status:
-    + Comments:
+    + Comments: Incomplete
 * Problem Set_03
     + Completion status:
-    + Comments:
+    + Comments: Incomplete
 * Writing assessment_02
     + CANCELED
 * Additional Readings
-    + Completion status:
-    + Comments 
+    + Completion status: Incomplete
+    + Comments: Missing links. Out of order with Module_03  
     
 ## Module 03 Portfolio Content
 
 * Evidence worksheet_05
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem set_04
     + Completion status:
@@ -76,10 +76,10 @@ output: html_document
 ### Project 1
 
 * CATME account setup and survey
-    + Completion status: 
+    + Completion status: X
     + Comments: 
 * CATME interim group assessment
-    + Completion status: 
+    + Completion status: X
     + Comments:
 * Project 1
     + Report (80%): 
